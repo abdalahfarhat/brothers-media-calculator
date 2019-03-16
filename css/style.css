@@ -105,10 +105,11 @@ footer p {
 }
 
 /*Custom Total*/
-.sticky {
+.alert.sticky {
   text-align: center;
-  height: 5vh;
   position: fixed;
+  right: 0;
   top: 20px;
-  z-index: 1;
+  z-index: 1500;
+  opacity: 0.9;
 }

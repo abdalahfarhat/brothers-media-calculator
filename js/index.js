@@ -28,6 +28,7 @@ window.onscroll = function () {
         nav.style.top = 100;
     }
 }*/
+/*
 $(window).scroll(function () {
     var sticky = $('.sticky'),
         scroll = $(window).scrollTop();
@@ -35,3 +36,4 @@ $(window).scroll(function () {
     if (scroll >= 200) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
 });
+*/
