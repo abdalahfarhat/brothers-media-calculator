@@ -47,9 +47,17 @@
 .option-input:hover {
   background: #9faab7;
 }
-
 .option-input:checked {
   background: #40e0d0;
+}
+.option-input.color2:checked{
+  background: #3498db;
+}
+.option-input.color3:checked{
+  background: #f1c40f;
+}
+.option-input.color4:checked{
+  background: #e74c3c;
 }
 
 .option-input:checked::before {
