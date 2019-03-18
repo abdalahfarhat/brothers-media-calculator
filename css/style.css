@@ -130,16 +130,36 @@ footer p {
 /*hover effect for check list*/
 .btn1:hover {
   background-color: #40e0d0;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .btn2:hover {
   background-color: #3498db;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .btn3:hover {
   background-color: #f1c40f;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .btn4:hover {
   background-color: #e74c3c;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+  cursor: pointer;
 }
