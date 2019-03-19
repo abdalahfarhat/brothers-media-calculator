@@ -17,7 +17,7 @@ $(function () {
         $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
 });
-$('.ticketAmount').css('btn');
+
 
     
   

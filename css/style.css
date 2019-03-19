@@ -119,6 +119,7 @@ footer p {
 /*Custom Total*/
 .alert.sticky {
   background-color: #ff414d;
+  border-radius: 25px;
   text-align: center;
   position: fixed;
   right: 0;
@@ -185,7 +186,7 @@ footer p {
   background: #f1c40f; 
 }
 
-/*styel checked item btn1*/
+/*styling checked item btn1*/
 .option-input:checked + .btn1 {
   background-color: #40e0d0;
   padding: 1rem;
@@ -194,7 +195,7 @@ footer p {
   transform: scale(1.1);
 }
 
-/*styel checked item btn2*/
+/*styling checked item btn2*/
 .option-input:checked + .btn2 {
   background-color: #3498db;
   padding: 1rem;
@@ -203,7 +204,7 @@ footer p {
   transform: scale(1.1);
 }
 
-/*styel checked item btn3*/
+/*styling checked item btn3*/
 .option-input:checked + .btn3 {
   background-color: #f1c40f;
   padding: 1rem;
@@ -212,7 +213,7 @@ footer p {
   transform: scale(1.1);
 }
 
-/*styel checked item btn4*/
+/*styling checked item btn4*/
 .option-input:checked + .btn4 {
   background-color: #e74c3c;
   padding: 1rem;
@@ -220,3 +221,10 @@ footer p {
   transition: all .2s ease-in-out;
   transform: scale(1.1);
 }
+/*styling price*/
+.price {
+  color: #b43dbe;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border: #b43dbe solid 1px;
+  border-radius: 15px;
+
