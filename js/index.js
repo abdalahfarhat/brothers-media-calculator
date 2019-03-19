@@ -17,23 +17,7 @@ $(function () {
         $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
 });
-/*
-nav = document.getElementById('total');
-window.onscroll = function () {
-    if (window.pageXOffset > 100) {
-        nav.style.position = 'fixed';
-        nav.style.top = 0;
-    } else {
-        nav.style.position = 'absolute';
-        nav.style.top = 100;
-    }
-}*/
-/*
-$(window).scroll(function () {
-    var sticky = $('.sticky'),
-        scroll = $(window).scrollTop();
+$('.ticketAmount').css('btn');
 
-    if (scroll >= 200) sticky.addClass('fixed');
-    else sticky.removeClass('fixed');
-});
-*/
+    
+  
