@@ -163,6 +163,7 @@ footer p {
   transform: scale(1.1);
   cursor: pointer;
 }
+/*scrollBar customize*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -182,4 +183,40 @@ footer p {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #f1c40f; 
+}
+
+/*styel checked item btn1*/
+.option-input:checked + .btn1 {
+  background-color: #40e0d0;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/*styel checked item btn2*/
+.option-input:checked + .btn2 {
+  background-color: #3498db;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/*styel checked item btn3*/
+.option-input:checked + .btn3 {
+  background-color: #f1c40f;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
+/*styel checked item btn4*/
+.option-input:checked + .btn4 {
+  background-color: #e74c3c;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
 }
