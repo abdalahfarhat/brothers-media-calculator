@@ -118,7 +118,7 @@ footer p {
 
 /*Custom Total*/
 .alert.sticky {
-  background-color: #ff414d;
+  background-color: #d4edda;
   border-radius: 25px;
   text-align: center;
   position: fixed;
@@ -178,7 +178,7 @@ footer p {
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #e74c3c; 
+  background: #d4edda; 
 }
 
 /* Handle on hover */
@@ -223,8 +223,8 @@ footer p {
 }
 /*styling price*/
 .price {
-  color: #b43dbe;
+  color: #155724;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  border: #b43dbe solid 1px;
+  border: #d4edda solid 1.2px;
   border-radius: 15px;
-
+}
