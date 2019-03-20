@@ -18,7 +18,10 @@
     opacity: 0;
   }
 }
-
+/*custom header*/
+.header{
+  text-align: center;
+}
 .option-input {
   -webkit-appearance: none;
   -moz-appearance: none;
