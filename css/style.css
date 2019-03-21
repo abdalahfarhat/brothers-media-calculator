@@ -1,3 +1,14 @@
+/*
+html{
+  background-color: rgb(243, 249, 252) ;
+}
+/*remove bootstrap color*/
+/*
+body, .form-all{
+  background:none !important;
+}
+*/
+  
 * {
   font-family: 'Roboto', sans-serif;
 }
@@ -19,9 +30,14 @@
   }
 }
 /*custom header*/
+.alert-success.brothers{
+  background-color: #40e0d0;
+}
 .header{
+  padding: 2.2rem;
   text-align: center;
 }
+
 .option-input {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -99,8 +115,6 @@
 
 body {
   position: relative;
-  background-color: #84add6;
-  color: #9faab7;
   font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
 }
 
@@ -120,8 +134,9 @@ footer p {
 }
 
 /*Custom Total*/
-.alert.sticky {
+.sticky {
   background-color: #d4edda;
+  padding: 1rem;
   border-radius: 25px;
   text-align: center;
   position: fixed;
@@ -207,6 +222,7 @@ footer p {
   transform: scale(1.1);
 }
 
+
 /*styling checked item btn3*/
 .option-input:checked + .btn3 {
   background-color: #f1c40f;
@@ -232,8 +248,37 @@ footer p {
   border-radius: 15px;
 }
 
+ div.alert.total + .option-input:checked {
+  background-color: #3498db;
+  padding: 1rem;
+  border-radius: 15px;
+  transition: all .2s ease-in-out;
+  transform: scale(1.1);
+}
+
 /*styling HR*/
 .hr{
-  color: #40e0d0;
-  border: solid 0.4px;
+  color: #d4edda;
+  border: solid 0.6px;
+}
+
+/*changing the color of Total */
+a#clickme {
+  margin-left: 10px;
+  background: #40e0d0;
+  text-align:center;
+  text-decoration: none;
+  text-transform:uppercase;
+  box-shadow: 0px 3px 0px rgba(170, 170, 170, .5);
+  color: #155724;
+  padding:1.5rem;
+  border-radius: 45px 45px 45px 5px;
+  z-index:1;
+  top: -10px;
+  left: 20px;
+}
+a#clickme:hover{
+  background: #d4edda;
+  color:#155724;
+  box-shadow: 0px 5px 0px rgba(170, 170, 170, .5);
 }

@@ -1,3 +1,4 @@
+//Total Function
 $(function () {
     //ticketAmount for radio buttons, ticketAddition for checkboxes
     var ticketAmount = 0,
@@ -18,6 +19,21 @@ $(function () {
     });
 });
 
+//changing the color of Total
+var bgcolors = ['#f5977d', '#fcc58e', '#fff69f', '#c5de9e', '#7dccc8', '#7fa8d7', '#8494c8', '#bc8ebe', '#f39bc1', '#f4999e'];
 
-    
+var i = 0;
+
+function change(){  
+    document.getElementById("total").style.backgroundColor = bgcolors[i++];
+    if(i == bgcolhex.length) i = 0;
+}
+
+var bgcolhex = ['#f5977d', '#fcc58e', '#fff69f', '#c5de9e', '#7dccc8', '#7fa8d7', '#8494c8', '#bc8ebe', '#f39bc1', '#f4999e'];
   
+ 
+/*
+$(".sticky").on("click", function() {
+    $(this).toggleClass("btn4");
+})
+*/
