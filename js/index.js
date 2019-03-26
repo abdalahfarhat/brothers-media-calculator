@@ -15,6 +15,7 @@ $(function () {
         var value = parseInt(this.value);
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
+        console.log(ticketAddition);
         $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
 });
@@ -37,3 +38,5 @@ $(".sticky").on("click", function() {
     $(this).toggleClass("btn4");
 })
 */
+
+   
