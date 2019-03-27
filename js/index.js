@@ -15,7 +15,7 @@ $(function () {
         var value = parseInt(this.value);
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
-        console.log("Your Cart "+ ticketAddition);
+        console.log("Your Cart "+ this.name +" "+ ticketAddition);
         $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
 });
