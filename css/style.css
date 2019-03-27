@@ -1,13 +1,18 @@
-/*
+
 html{
-  background-color: rgb(243, 249, 252) ;
+  background-image: url(apple-business-computer-39284.jpg);
+  background-position: center;
 }
 /*remove bootstrap color*/
-/*
+
 body, .form-all{
   background:none !important;
 }
-*/
+
+.container{
+  background-color: white;
+  box-shadow: 0 0 10px black;
+}
   
 * {
   font-family: 'Roboto', sans-serif;
