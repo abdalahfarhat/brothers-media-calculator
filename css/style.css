@@ -7,11 +7,13 @@ html{
 
 body, .form-all{
   background:none !important;
+  margin: 20px;
 }
 
 .container{
   background-color: white;
   box-shadow: 0 0 10px black;
+  opacity: 0.9;
 }
   
 * {
@@ -37,10 +39,12 @@ body, .form-all{
 /*custom header*/
 .alert-success.brothers{
   background-color: #40e0d0;
+  opacity: 0.8;
 }
 .header{
   padding: 2.2rem;
   text-align: center;
+  opacity: 0.8;
 }
 
 .option-input {
@@ -131,6 +135,7 @@ body {
 
 footer {
   padding: 2.2rem;
+  opacity: 0.8;
 }
 
 footer p {
