@@ -1,6 +1,6 @@
 
 html{
-  background-image: url(apple-business-computer-39284.jpg);
+  background-image: url(apple-business-computer-39284-min.jpg);
   background-position: center;
 }
 /*remove bootstrap color*/
@@ -39,12 +39,15 @@ body, .form-all{
 /*custom header*/
 .alert-success.brothers{
   background-color: #40e0d0;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .header{
-  padding: 2.2rem;
+  padding: 1rem;
   text-align: center;
-  opacity: 0.8;
+  opacity: 3;
+}
+div.alert-success.brothers{
+  border-radius: 50px;
 }
 
 .option-input {
@@ -156,7 +159,7 @@ footer p {
   opacity: 0.8;
 }
 
-/*hover effect for check list*/
+/*hover effect for check list
 .btn1:hover {
   background-color: #40e0d0;
   padding: 1rem;
@@ -192,6 +195,7 @@ footer p {
   transform: scale(1.1);
   cursor: pointer;
 }
+*/
 /*scrollBar customize*/
 
 /* width */
