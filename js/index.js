@@ -1,8 +1,8 @@
 //Total Function
 $(function () {
     //ticketAmount for radio buttons, ticketAddition for checkboxes
-    var ticketAmount = 0,
-        ticketAddition = 0;
+    var ticketAmount = [],
+        ticketAddition = [];
     $(".ticketAmount").change(function () {
         //Set ticketAmount to the value of the button checked.
         var value = parseInt(this.value);
@@ -12,9 +12,12 @@ $(function () {
     $(".ticketAddition").change(function () {
         //Add or subtract the value of the button from ticketAddition
         //depending on whether or not the button has been checked or unchecked.
-        var value = parseInt(this.value);
+        var value = parseInt(this.value); 
+        var name = this.name;
+        
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
+        
         console.log("Your Cart "+ this.name +" "+ ticketAddition);
         $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
