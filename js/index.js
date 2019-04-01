@@ -1,8 +1,8 @@
 //Total Function
 $(function () {
     //ticketAmount for radio buttons, ticketAddition for checkboxes
-    var ticketAmount = [],
-        ticketAddition = [];
+    var ticketAmount = 0,
+        ticketAddition = 0;
     $(".ticketAmount").change(function () {
         //Set ticketAmount to the value of the button checked.
         var value = parseInt(this.value);
@@ -13,8 +13,6 @@ $(function () {
         //Add or subtract the value of the button from ticketAddition
         //depending on whether or not the button has been checked or unchecked.
         var value = parseInt(this.value); 
-        var name = this.name;
-        
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
         
@@ -52,4 +50,10 @@ btnscrolltotop.addEventListener("click", function(){
     });
 });
 
-   
+$(".ticketAddition").change(function (){
+    var name = [];
+ if (this.checked) {
+    name.push(this.name);
+    console.log(name);
+}
+});
