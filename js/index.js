@@ -15,9 +15,6 @@ $(function () {
         var value = parseInt(this.value); 
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
-        
-        console.log("Your Cart "+ this.name +" "+ ticketAddition);
-        $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
 });
 
@@ -52,8 +49,19 @@ btnscrolltotop.addEventListener("click", function(){
 
 $(".ticketAddition").change(function (){
     var name = [];
- if (this.checked) {
-    name.push(this.name);
-    console.log(name);
-}
+    name.toString();
+    if (this.checked) {
+        name.push(this.name);
+        console.log(name);
+        displayCart();
+    }
+    function displayCart(){
+        cartdata = "<table><tr>Service Name</th><th>Price</th>";
+        total=0;
+        for(i=0;i<name.length;i++){
+            total+=name[i];
+            cartdata+="<tr><td>"+name[i];
+            console.log(cartdata);
+        }
+    }
 });
