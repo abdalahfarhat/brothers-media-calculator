@@ -12,10 +12,12 @@ $(function () {
     $(".ticketAddition").change(function () {
         //Add or subtract the value of the button from ticketAddition
         //depending on whether or not the button has been checked or unchecked.
-        var value = parseInt(this.value); 
+        var value = parseInt(this.value);
         if (this.checked) ticketAddition += value;
         else ticketAddition -= value;
+        $('#amount').text((ticketAmount + ticketAddition) + ".00");
     });
+
 });
 
 //changing the color of Total
@@ -47,13 +49,14 @@ btnscrolltotop.addEventListener("click", function(){
     });
 });
 
+/*
 $(".ticketAddition").change(function (){
     var name = [];
     name.toString();
     if (this.checked) {
         name.push(this.name);
-        console.log(name);
         displayCart();
+        console.log(name);
     }
     function displayCart(){
         cartdata = "<table><tr>Service Name</th><th>Price</th>";
@@ -65,3 +68,14 @@ $(".ticketAddition").change(function (){
         }
     }
 });
+*/
+/*$(".ticketAddition").change(function() {
+    var name = [];
+    var checked = $(this).val();;
+    if ($(this).is(':checked')) {
+      name.push(checked);
+    } else {
+      name.splice($.inArray(checked, name),1);
+    }
+  });
+*/
