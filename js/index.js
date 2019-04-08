@@ -49,6 +49,40 @@ btnscrolltotop.addEventListener("click", function(){
     });
 });
 
+/*My question on StackOver flow*/
+$(".ticketAddition").change(function (){
+    var ticketSelection = [];
+    $('.ticketAddition:checked').each(function() {
+      ticketSelection.push(this.getAttribute('name'));
+    });
+    document.querySelector('#result').innerText = JSON.stringify(ticketSelection);
+    console.log(ticketSelection);
+});
+/*
+$(".ticketAddition").change(function (){
+    var name = [];
+    if (this.checked) {
+        name.push(this.name);
+        console.log(name);
+    } else {
+      name.splice(name.indexOf(this.name), 1);
+    }
+});
+*/
+
+/*$('input[type=checkbox]').click(function(){
+    if($(this).is(':checked')){
+        console.log($(this).attr('name')); // check this, you'll have the item name. (the first td)
+        console.log($(this).attr('value')); // this will have the value on the "data-val" attribute on your checkbox
+    }
+    else{
+        
+    }
+});
+*/
+
+
+/*My  and code wrote it Lonly and doesnt work */
 /*
 $(".ticketAddition").change(function (){
     var name = [];
