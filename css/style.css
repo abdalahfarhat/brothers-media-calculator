@@ -317,12 +317,16 @@ a#clickme:hover{
   background: #ffdf60;
 }
 /*customize checklist*/
-div.alert.alert-success.checklist{
+.checklist{
+  background-color: #d4edda;
+  padding: 1rem;
   position: fixed;
   right: 0;
   top: 90px;
   z-index: 1500;
-  opacity: 0.8;
+  border-radius: 30px;
+  opacity: 0.8;;
+
 }
 #checked{
   display: flex;
