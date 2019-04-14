@@ -55,7 +55,7 @@ $(".ticketAddition").change(function (){
     $('.ticketAddition:checked').each(function() {
       ticketSelection.push(this.getAttribute('name'));
     });
-    document.querySelector('#result').innerText = JSON.stringify(ticketSelection);
+    document.querySelector('#result').innerHTML = JSON.stringify(ticketSelection.join("<br>"));
     console.log(ticketSelection);
 });
 /*
@@ -113,3 +113,8 @@ $(".ticketAddition").change(function (){
     }
   });
 */
+/*to display array vertically*/
+/*
+var names = ["John", "Smith", "Paul", "Doe"];
+document.getElementById('out').innerHTML = names.join('<br>');
+ */

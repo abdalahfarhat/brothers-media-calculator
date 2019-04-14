@@ -316,3 +316,13 @@ a#clickme:hover{
 #btnscrolltotop:active{
   background: #ffdf60;
 }
+
+#checked{
+  display: flex;
+  text-transform: uppercase;
+}
+#result{
+  color: #9faab7;
+  text-transform: uppercase;
+  white-space: pre;
+}
