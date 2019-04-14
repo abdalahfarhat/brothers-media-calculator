@@ -316,13 +316,26 @@ a#clickme:hover{
 #btnscrolltotop:active{
   background: #ffdf60;
 }
-
+/*customize checklist*/
+div.alert.alert-success.checklist{
+  position: fixed;
+  right: 0;
+  top: 90px;
+  z-index: 1500;
+  opacity: 0.8;
+}
 #checked{
   display: flex;
+  justify-content:center;
+  padding: 0.9rem;
+  border: #155724 solid 1.4px;
+  border-radius: 30px;
   text-transform: uppercase;
 }
 #result{
-  color: #9faab7;
-  text-transform: uppercase;
-  white-space: pre;
+  display: flex;
+  justify-content:center;
+  margin-top: 10px;
+  color: #f1c40f;
+  text-transform: capitalize;
 }
