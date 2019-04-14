@@ -334,8 +334,11 @@ div.alert.alert-success.checklist{
 }
 #result{
   display: flex;
+  padding: 0.9rem;
+  border: #3498db solid 1.4px;
+  border-radius: 30px;
   justify-content:center;
   margin-top: 10px;
-  color: #f1c40f;
+  color: #3498db;
   text-transform: capitalize;
 }
