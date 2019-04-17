@@ -26,7 +26,7 @@ var bgcolors = ['#f5977d', '#fcc58e', '#fff69f', '#c5de9e', '#7dccc8', '#7fa8d7'
 var i = 0;
 
 function change(){  
-    document.getElementById("total").style.backgroundColor = bgcolors[i++];
+    document.getElementsByClassName("back checklist")[0].style.backgroundColor = bgcolors[i++];
     if(i == bgcolhex.length) i = 0;
 }
 
@@ -55,7 +55,10 @@ $(".ticketAddition").change(function (){
     $('.ticketAddition:checked').each(function() {
       ticketSelection.push(this.getAttribute('name'));
     });
-    document.querySelector('#result').innerHTML = JSON.stringify(ticketSelection.join("<br>"));
+    /* JSON.stringify turns a JavaScript object into JSON text and stores that JSON text in a string.
+     JSON.parse turns a string of JSON text into a JavaScript object. */
+    /*document.querySelector('#result').innerHTML = JSON.stringify(ticketSelection.join("<br>"));*/
+    document.querySelector('#result').innerHTML = ticketSelection.join("<br>");
     console.log(ticketSelection);
 });
 /*

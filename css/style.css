@@ -311,7 +311,7 @@ a#clickme:hover{
   outline: none;
   border: none;
   cursor: pointer;
-  z-index: 1;
+  z-index: 2000;
 }
 #btnscrolltotop:active{
   background: #ffdf60;
@@ -336,8 +336,13 @@ a#clickme:hover{
   border-radius: 30px;
   text-transform: uppercase;
 }
+#result::before{
+  border: none;
+}
 #result{
   display: flex;
+  font-size: .7rem;
+  height: 100%;
   padding: 0.9rem;
   border: #3498db solid 1.4px;
   border-radius: 30px;
