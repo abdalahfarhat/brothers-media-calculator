@@ -22,11 +22,15 @@ $(function () {
 
 //changing the color of Total
 var bgcolors = ['#f5977d', '#fcc58e', '#fff69f', '#c5de9e', '#7dccc8', '#7fa8d7', '#8494c8', '#bc8ebe', '#f39bc1', '#f4999e'];
-
+/*var x = document.getElementById("myDIV");
+var y = x.getElementsByClassName("child");
+var i;
+for (i = 0; i < y.length; i++) {
+  y[i].style.backgroundColor = "red";
+} */
 var i = 0;
-
 function change(){  
-    document.getElementsByClassName("back checklist")[0].style.backgroundColor = bgcolors[i++];
+    document.getElementsByClassName("back")[i].style.backgroundColor = bgcolors[i++];
     if(i == bgcolhex.length) i = 0;
 }
 
